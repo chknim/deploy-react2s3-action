@@ -13,4 +13,5 @@ LABEL maintainer="Chakrit Nimmanant <cnimmana@gmail.com>"
 ENV AWSCLI_VERSION='1.18.14'
 RUN pip install --quiet --no-cache-dir awscli==${AWSCLI_VERSION}
 ADD entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
