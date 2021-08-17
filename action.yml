@@ -1,5 +1,5 @@
-name: "Deploy React to S3 Action"
-description: "Sync a directory to an AWS S3 repository"
+name: "React to S3 Action"
+description: "Build a React.js web app and sync to an AWS S3 repository"
 author: chknim
 runs:
   using: docker
