@@ -60,7 +60,7 @@ fi
 # We need to re-run `aws configure` with bogus input instead of
 # deleting ~/.aws in case there are other credentials living there.
 # https://forums.aws.amazon.com/thread.jspa?threadID=148833
-aws configure --profile deploy-react2s3-actio <<-EOF > /dev/null 2>&1
+aws configure --profile deploy-react2s3-action <<-EOF > /dev/null 2>&1
 null
 null
 null
